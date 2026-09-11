@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Moderne — Nouvelles fonctionnalités</title>
+  </head>
+  <body>
+    <div class="grain"></div>
+
+    <main class="container">
+      <header class="main-header">
+        <div class="header-eyebrow">
+          <span class="dot"></span>
+          <span>Référence CSS 2026</span>
+        </div>
+        <h1>Le CSS<br><em>d'aujourd'hui</em></h1>
+        <p class="header-desc">5 fonctionnalités natives qui remplacent vos anciens hacks. Avec démos interactives.</p>
+        <button type="button" class="cta-btn" id="toggle-btn">
+          <span class="btn-inner">Afficher les fonctionnalités</span>
+          <span class="btn-arrow">↓</span>
+        </button>
+      </header>
+
+      <div id="affichage-nouveautes" class="results-container" aria-live="polite"></div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
