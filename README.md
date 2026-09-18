@@ -333,3 +333,4 @@ Lie une animation CSS à la **progression du scroll**, sans JavaScript ni `Inter
 | `scroll()` | Scroll du conteneur (défaut : plus proche ancêtre scrollable) |
 | `scroll(root)` | Scroll de la page entière |
 | `view()` | Position de l'élément dans le viewport |
+# Nouveautes_css
